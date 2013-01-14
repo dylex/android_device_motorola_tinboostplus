@@ -1,0 +1,10 @@
+/boot		mtd		boot
+/misc		yaffs2		misc
+/misc2		yaffs2		misc2
+/recovery	mtd		recovery
+/hidden		yaffs2		hidden
+/hidden/data	yaffs2		cda
+/cache		yaffs2		cache
+/data		yaffs2		userdata
+/sdcard		vfat		/dev/block/mmcblk0p1	/dev/block/mmcblk0
+/system		yaffs2		system
